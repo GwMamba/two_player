@@ -9,3 +9,8 @@ class Player
   def answer_question(answer)
     # logic to handle answering questions and updating lives
   end
+
+  def current_score
+    "#{name}: #{@lives}/3"
+  end
+end
