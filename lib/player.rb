@@ -8,3 +8,4 @@ class Player
 
   def answer_question(answer)
     # logic to handle answering questions and updating lives
+  end
