@@ -1,9 +1,11 @@
 class Question
-  attr_reader :num1 :num2
+  attr_accessor :current_player
+  attr_reader :num1, :num2, :current_player
 
   def initialize
     @num1 = rand(1..20)
     @num2 = rand(1..20)
+    @current_player = current_player
   end
 
   def ask_question
